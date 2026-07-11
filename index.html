@@ -4,53 +4,46 @@
     <meta charset="UTF-8">
     <title>MARKETOPIA | Strategic Insights</title>
     <style>
-        body { font-family: 'Times New Roman', serif; max-width: 800px; margin: 50px auto; padding: 20px; color: #1a1a1a; line-height: 1.6; }
-        header { border-bottom: 2px solid #000; padding-bottom: 20px; margin-bottom: 40px; text-align: center; }
-        h1 { font-size: 3em; letter-spacing: -1px; text-transform: uppercase; }
-        .cta-container { text-align: center; margin: 50px 0; }
-        .cta-button {
-            padding: 15px 30px;
-            border: 1px solid #000;
-            background: #fff;
-            text-transform: uppercase;
-            font-weight: bold;
-            cursor: pointer;
-            text-decoration: none;
-            color: #000;
-            display: inline-block;
-        }
+        body { font-family: 'Times New Roman', serif; max-width: 1000px; margin: 0 auto; padding: 20px; color: #1a1a1a; }
+        header { border-bottom: 3px solid #000; padding-bottom: 20px; margin-bottom: 20px; }
+        nav { text-align: center; margin-bottom: 20px; }
+        nav a { margin: 0 10px; text-transform: uppercase; text-decoration: none; color: #000; font-size: 0.9em; }
+        .hero { text-align: center; padding: 50px 0; }
+        .cta-button { padding: 10px 25px; border: 1px solid #000; background: #fff; cursor: pointer; text-decoration: none; color: #000; font-weight: bold; }
         .cta-button:hover { background: #000; color: #fff; }
-        .post { margin-bottom: 40px; }
-        .post-title { font-size: 1.5em; font-weight: bold; margin-bottom: 5px; }
-        .post-meta { font-style: italic; color: #666; margin-bottom: 10px; }
+        .services { display: flex; justify-content: space-between; margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; }
+        .service-box { width: 22%; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>MARKETOPIA</h1>
+        <div style="text-align: center; font-size: 3em; font-weight: bold;">MARKETOPIA</div>
+        <nav>
+            <a href="#marketing">Marketing</a>
+            <a href="#business">Business</a>
+            <a href="#pm">Project Management</a>
+            <a href="#ai">AI</a>
+            <a href="#books">Books</a>
+            <a href="#lifestyle">Lifestyle</a>
+            <a href="#consultation">Consultation Info</a>
+        </nav>
     </header>
 
-    <main>
-        <div class="cta-container">
-            <!-- E-poçt ünvanınızı bura daxil edin -->
-            <a href="mailto:email@address.com" class="cta-button">Get Consultation</a>
+    <div class="hero">
+        <h1>Strategic Insights for Modern Brands</h1>
+        <a href="https://calendly.com/nazli-abdullayeva-04/30min" class="cta-button">Get Consultation</a>
+    </div>
+
+    <section id="consultation">
+        <h2>Consultation Information</h2>
+        <div class="services">
+            <div class="service-box"><h3>Creative</h3><p>Visual identity and brand storytelling.</p></div>
+            <div class="service-box"><h3>For SME</h3><p>Growth strategies for small businesses.</p></div>
+            <div class="service-box"><h3>Performance</h3><p>Data-driven ROI optimization.</p></div>
+            <div class="service-box"><h3>Branding</h3><p>Market positioning and legacy building.</p></div>
         </div>
-
-        <section>
-            <div class="post">
-                <div class="post-title">Creative Performance Branding</div>
-                <div class="post-meta">July 11, 2026</div>
-                <p>Datanın estetik ilə kəsişdiyi nöqtədə markaların yüksəlişi.</p>
-            </div>
-
-            <div class="post">
-                <div class="post-title">Ongoing Marketing Trends</div>
-                <div class="post-meta">July 11, 2026</div>
-                <p>Bazarın dəyişən dinamikası və müasir istehlakçı davranışları.</p>
-            </div>
-        </section>
-    </main>
+    </section>
 
 </body>
 </html>
